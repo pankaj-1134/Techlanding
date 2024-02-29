@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+}
+
+.nav-item a{
+    margin-right: 0.8rem;
+    color: #000000a6;
+    text-decoration: none;
+}
+
+.dropdown-toggle {
+    margin-right: 0.8rem;
+    color: #000000a6;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("Images/pexels-junior-teixeira-2047905.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    text-align: center;
+    padding-top: 8rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.row h1 {
+    font-size: 3rem;
+    background-color: #9AD0C2;
+    opacity: 0.9;
+}
+
+p {
+    color: white;
+    font-weight: 600;
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+    h1 {
+        background-color: #F1FADA;
+        color: black;
+    }
+
+    h2 {
+        background-color: #449d44;
+    }
+}
+
+@media (min-width:768px) {
+    h1 {
+        background-color: skyblue;
+        opacity: 0.8;
+    }
+}
